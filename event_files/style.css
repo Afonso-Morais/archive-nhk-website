@@ -1,0 +1,131 @@
+/*　ボディ　*/
+body{
+	background-color : #FFFFFF ;
+	margin           : 0px;
+}
+
+/*　デフォルトリンク　*/
+a:link{
+	color           : #ff9900;
+	text-decoration : underline;
+}
+a:active{
+	color           : #ff9900;
+	text-decoration : underline;
+}
+a:visited{
+	color           : #ff9900;
+	text-decoration : underline;
+}
+a:hover{
+	color           : #ff9900;
+	text-decoration : underline;
+}
+
+/* 背景画像 */
+.bg01{
+	background-image : url(../images/bg.gif);
+	background-repeat: repeat;
+}
+
+.bg02{
+	background-image : url(../images/menu_bg03.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.back{
+	background-image : url(../images/back.jpg);
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+
+.form01{
+	background-image : url(../images/form_left.gif);
+	background-repeat: repeat;
+}
+
+.form02{
+	background-image : url(../images/form_right.gif);
+	background-repeat: repeat;
+}
+	
+
+
+/* テキスト */
+.j10{
+	font-size : 10px;
+	line-height : 130%; 
+	color : #333333;
+}
+.j10_red{
+	font-size : 10px;
+	line-height : 130%;
+	color : #FF3300;
+}
+.j12{
+	font-size : 12px;
+	line-height : 160%; 
+	color : #333333;
+}
+.j12_orange{
+	font-size : 12px;
+	line-height : 160%;
+	color : #FF9900;
+}
+
+.j10_orange{
+	font-size : 10px;
+	line-height : 140%;
+	color : #FF9900;
+}
+
+
+.j12_red{
+	font-size : 12px;
+	line-height : 130%;
+	color : #FF3300;
+}
+.j14_red{
+	font-size : 14px;
+	line-height : 140%;
+	color : #FF3300;
+}
+.kaijo-01{
+	font-size : 12px;
+	line-height : 150%;
+	color : #333333;
+	margin-right : 20px;
+	margin-left : 20px;
+	margin-top : 5px;
+}
+.kaijo-02{
+	font-size : 14px;
+	line-height : 140%;
+	color : #ff3300;
+	margin-right : 20px;
+	margin-left : 20px;
+	margin-top : 15px;
+}
+
+
+/* 画像 */
+.img01{
+	margin-left : 10px;
+}
+
+
+
+
+
+/* 背景色 */
+.bg_w{ background: #FFFFFF; }
+.bg_orange{ background: #FF9900 }
+
+
+/* ボーダー */
+.bdr{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+}
